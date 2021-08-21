@@ -11,31 +11,32 @@
         android:id="@+id/view14"
         android:layout_width="match_parent"
         android:layout_height="1dp"
+        android:layout_margin="3dp"
         android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
         android:background="#C8464242"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="412dp"
-        android:layout_marginEnd="4dp"/>
+        tools:layout_editor_absoluteY="412dp" />
 
     <View
         android:id="@+id/view15"
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
         android:background="#C8464242"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="452dp"
-        android:layout_marginEnd="4dp"/>
+        tools:layout_editor_absoluteY="452dp" />
 
     <View
         android:id="@+id/view16"
         android:layout_width="match_parent"
         android:layout_height="1dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
         android:background="#C8464242"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="501dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginEnd="4dp"/>
+        tools:layout_editor_absoluteY="501dp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -146,7 +147,7 @@
         android:layout_width="54dp"
         android:layout_height="33dp"
         android:background="#0FFFFFFF"
-        android:src="@drawable/ic_input"
+        android:src="@drawable/ic_edit"
         tools:layout_editor_absoluteX="264dp"
         tools:layout_editor_absoluteY="461dp" />
 
@@ -155,7 +156,7 @@
         android:layout_width="43dp"
         android:layout_height="24dp"
         android:background="#0FFFFFFF"
-        android:src="@drawable/ic_input"
+        android:src="@drawable/ic_edit"
         tools:layout_editor_absoluteX="276dp"
         tools:layout_editor_absoluteY="691dp" />
 
@@ -163,7 +164,7 @@
         android:id="@+id/imageView4"
         android:layout_width="34dp"
         android:layout_height="23dp"
-        android:src="@drawable/ic_storage"
+        android:src="@drawable/ic_save"
         tools:layout_editor_absoluteX="328dp"
         tools:layout_editor_absoluteY="692dp" />
 
@@ -171,7 +172,7 @@
         android:id="@+id/imageView7"
         android:layout_width="41dp"
         android:layout_height="33dp"
-        android:src="@drawable/ic_storage"
+        android:src="@drawable/ic_save"
         tools:layout_editor_absoluteX="332dp"
         tools:layout_editor_absoluteY="461dp" />
 
@@ -207,41 +208,41 @@
         android:id="@+id/view10"
         android:layout_width="match_parent"
         android:layout_height="1dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
         android:background="#C8464242"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="317dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginEnd="4dp"/>
+        tools:layout_editor_absoluteY="317dp" />
 
     <View
         android:id="@+id/view13"
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
         android:background="#C8464242"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="365dp"
-        android:layout_marginEnd="4dp"/>
+        tools:layout_editor_absoluteY="365dp" />
 
     <View
         android:id="@+id/view12"
         android:layout_width="match_parent"
         android:layout_height="1dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
         android:background="#C8464242"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="278dp"
-        android:layout_marginEnd="4dp"
-        android:layout_marginStart="4dp"/>
+        tools:layout_editor_absoluteY="278dp" />
 
     <View
         android:id="@+id/view11"
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
         android:background=""
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="191dp"
-        android:layout_marginEnd="4dp"/>
+        tools:layout_editor_absoluteY="191dp" />
 
     <TextView
         android:id="@+id/textView20"
@@ -419,5 +420,38 @@
         android:textStyle="bold"
         tools:layout_editor_absoluteX="289dp"
         tools:layout_editor_absoluteY="577dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_menu_24"
+        tools:layout_editor_absoluteX="362dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="250dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:src="@tools:sample/avatars"/>
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/ic_camera" />
+
+    </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
